@@ -9,7 +9,7 @@ Analysis and Results
 # Code and Analysis Results
 
 ## I: Examples of Code Used
-	For this section, I have included the criteria required for the challenge as well as the code that was used with comments alongside them to provide simple explanations.
+For this section, I have included the criteria required for the challenge as well as the code that was used with comments alongside them to provide simple explanations.
 
 ### A.	Created a tickerIndex variable and set it equal to zero before iterating over all the rows. Will use this tickerIndex to access the correct index across the four different arrays on VBA Code: the tickers array and the three output arrays created on next requirement.
 ```VBA
@@ -111,7 +111,7 @@ Worksheets(yearValue).Activate
 ```
 
 ## II: Dataset Analysis
-	After dissecting the code, now have a better understanding of the data we are about to analyze and how it will be formatted. Our stock analysis outputs for 2017 and 2018 are correct when compared to the previous examples shown in the challenge. The code did run faster than before but not by a significant amount. However, our code is more legible than before and easier to understand as well as edit for future use.
+After dissecting the code, now have a better understanding of the data we are about to analyze and how it will be formatted. Our stock analysis outputs for 2017 and 2018 are correct when compared to the previous examples shown in the challenge. The code did run faster than before but not by a significant amount. However, our code is more legible than before and easier to understand as well as edit for future use.
 
 
 Results and Time for VBA_Challenge_2017.PNG
@@ -145,4 +145,4 @@ In sum, refactoring data is a very useful tool to a data analyst by making small
 -Refactoring process can affect the testing outcomes and disrupt the original function of the code at times.
 
 ### II. Pros and Cons when refactoring the original VBA script?
-The most important thing to keep in mind when refactoring code is that you are not seeking to change what your code is seeking to accomplish. Your code maintains the same functions that it did before but condensing and rewriting pieces of it can make things easier for the user in the long run. It is easy to see when refactoring is common practice because the reuse of code (I assume) is common. Going back to a code you have not worked with for some time may be confusing if it is not simple enough to understand. This is where refactoring and adding comments can be a major factor in helping an analyst complete their task(s) efficiently and without confusion. Keeping up with this kind of maintenance is however a large undertaking and this challenge was difficult for our first coding challenge. Practice is key to refactoring, and I believe it will get easier as we evaluate more code.
+When refactoring code, one of the most important things you are trying not to do is to change what your code is seeking to accomplish. Your code maintains the same functions that it did before but condensing and rewriting pieces of it can make things easier for the user in the long run. It is easy to see when refactoring is common practice because the reuse of code (I assume) is common. Going back to a code you have not worked with for some time may be confusing if it is not simple enough to understand. This is where refactoring and adding comments can be a major factor in helping an analyst complete their task(s) efficiently and without confusion. Keeping up with this kind of maintenance is however a large undertaking and this challenge was difficult for our first coding challenge. Practice is key to refactoring, and I believe it will get easier as we evaluate more code.
